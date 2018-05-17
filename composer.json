@@ -1,0 +1,25 @@
+{
+    "name": "aweitian/captcha",
+    "description":"Tian php captcha",
+    "authors": [
+        {
+            "name": "tiananwei",
+            "email": "awei.tian@qq.com"
+        }
+    ],
+    "require": {
+        "aweitian/session":"~2.0"
+    },
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Aw\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
